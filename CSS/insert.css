@@ -1,0 +1,33 @@
+body{
+    
+    background-size:120%;
+    
+    background-image: url("../IMAGE/i1.jpg");
+   
+}
+.btn1
+{
+    width: 150px;
+    height: 31px;
+    margin :10px 20px;
+}
+.btn1:hover
+{
+    background-color:rgb(70, 65, 114);
+    
+}
+input[type=text],input[type=password]
+{
+    width: 50%;
+    height :7%
+    
+}
+.t1[type=text],input[type=city]
+{
+    width: 50%;
+    height :7%
+    
+}
+.p{
+    background-color: antiquewhite;
+}

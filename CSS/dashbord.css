@@ -1,0 +1,43 @@
+body{
+    
+    background-size:100%;
+    
+    background-image: url("../IMAGE/bg-34.jpg");
+   
+}
+.button1{
+    background-color: aquargb(49, 55, 55);
+    color: rgb(254, 251, 251);
+    font-size: larger;
+    font-weight: bolder;
+}
+.button1:hover{
+    background-color: rgb(254, 251, 251);
+    color: rgb(49, 55, 55);
+    font-size: large;
+    font-weight: bolder;
+}
+a{
+    text-decoration:none;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  main {
+    flex: 1;
+  }
+  
+  footer {
+    background-color: rgb(247, 235, 157);
+    padding: 15px;
+    margin-top: auto;
+  }
+  .p
+  {
+    background-color: floralwhite;
+  }

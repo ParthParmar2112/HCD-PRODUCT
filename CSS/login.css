@@ -1,0 +1,124 @@
+body{
+    
+    background-size:100%;
+    
+    background-image: url("../IMAGE/bg-3.jpg");
+    
+}
+
+.form
+{
+    border: 3px solid black;
+}
+.con
+{
+    padding: 25px;
+    width: 50%;
+    margin:300px 400px;
+    
+}
+input[type=text],input[type=password]
+{
+    width: 50%;
+    height :4%
+   
+}
+.btn1
+{
+    width: 150px;
+    height: 31px;
+    margin :10px 20px;
+}
+.btn1:hover
+{
+    background-color: skyblue;
+    
+}
+.btn2:hover
+{
+    background-color: skyblue;
+    
+}
+
+
+h1 {
+  color: rgb(38, 20, 27);
+  text-align: center;
+}
+h2 {
+  color: black;
+  text-align: center;
+}
+.link
+{
+    color: white;
+}
+.button1{
+    background-color: rgb(49, 55, 55);
+    color: rgb(254, 251, 251);
+    font-size: larger;
+    font-weight: bolder;
+}
+.button1:hover{
+    background-color: rgb(254, 251, 251);
+    color: rgb(49, 55, 55);
+    font-size: large;
+    font-weight: bolder;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  main {
+    flex: 1;
+  }
+  
+  footer {
+    background-color: rgb(247, 235, 157);
+    padding: 15px;
+    margin-top: auto;
+  }
+
+  #t1 {
+    background-color: rgb(247, 235, 157);
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"], input[type="password"] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  

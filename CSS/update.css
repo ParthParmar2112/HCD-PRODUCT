@@ -1,0 +1,39 @@
+body{
+    
+    /* background-size:120%; */
+    margin: 0px;
+	padding: 0;
+	background: #28231f;
+	text-align: center;
+    background-size:cover;
+    background-image: url("../IMAGE/i9.jpg");
+    animation:pan 6s infinite alternate linear;  
+}
+
+@keyframes pan{
+    100%{
+      background-position:10% 60%;
+    }
+}
+.btn1{
+    width: 150px;
+    height:31px;
+    margin:10px 20px;
+}
+.btn1:hover
+{
+    background-color:rgb(54, 214, 232);
+    
+}
+input[type=text],input[type=password]
+{
+    width: 50%;
+    height :4%
+    
+}
+t[type=text],input[type=password]
+{
+    width: 50%;
+    height :4%
+    
+}

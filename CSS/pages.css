@@ -1,0 +1,148 @@
+body{
+    
+    background-size:120%; 
+    
+    background-image: url("../IMAGE/bg-3.jpg");
+   
+}
+p{
+    font-size: 30px;
+    color: rgb(8, 8, 8);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+
+}
+p:hover{
+    color: rgb(50, 50, 49);
+    font-size: 40px;
+}
+.button1{
+    background-color: rgb(49, 55, 55);
+    color: rgb(254, 251, 251);
+    font-size: larger;
+    font-weight: bolder;
+}
+.button1:hover{
+    background-color: rgb(254, 251, 251);
+    color: rgb(49, 55, 55);
+    font-size: large;
+    font-weight: bolder;
+}
+#display{
+    
+    width: 75%;
+    height: 10%;
+}
+
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  main {
+    flex: 1;
+  }
+  
+  footer {
+    background-color: rgb(247, 235, 157);
+    padding: 15px;
+    margin-top: auto;
+  }
+
+
+
+  .table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom:20px;
+  }
+
+  
+  
+  .row {
+    display: table-row;
+  }
+  
+  .cell {
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+
+
+
+  #t1 {
+    background-color: rgb(247, 235, 157);
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"], input[type="password"] {
+    padding: 10px;
+    font-size: 16px;
+    
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+
+
+
+
+
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  thead {
+    background-color: #333;
+    color: red;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: rgb(205, 205, 205);
+  }
+
+ 
+  tbody tr:hover {
+    background-color: #f7de78;
+  }
+  
+  
+  td {
+    border: 0px solid #28b4fb;
+  }
+  
